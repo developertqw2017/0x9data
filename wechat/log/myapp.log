@@ -632,3 +632,2082 @@ spawned uWSGI worker 2 (pid: 8379, cores: 2)
 spawned uWSGI worker 3 (pid: 8380, cores: 2)
 spawned uWSGI worker 4 (pid: 8381, cores: 2)
 [pid: 8380|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 09:45:31 2018] GET / => generated 2 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 10:06:38 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80388ba00 pid: 8462 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8462, cores: 2)
+spawned uWSGI worker 2 (pid: 8467, cores: 2)
+spawned uWSGI worker 3 (pid: 8468, cores: 2)
+spawned uWSGI worker 4 (pid: 8469, cores: 2)
+[pid: 8468|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:06:42 2018] GET / => generated 2 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 10:07:24 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80388ba00 pid: 8476 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8476, cores: 2)
+spawned uWSGI worker 2 (pid: 8481, cores: 2)
+spawned uWSGI worker 3 (pid: 8482, cores: 2)
+spawned uWSGI worker 4 (pid: 8483, cores: 2)
+[2018-03-18 10:07:27,232] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 15, in he
+    json = json.dumps(data, ensure_ascii=False)
+UnboundLocalError: local variable 'json' referenced before assignment
+[pid: 8482|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:07:27 2018] GET / => generated 291 bytes in 88 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 10:08:38 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80388ba00 pid: 8487 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8487, cores: 2)
+spawned uWSGI worker 2 (pid: 8492, cores: 2)
+spawned uWSGI worker 3 (pid: 8493, cores: 2)
+spawned uWSGI worker 4 (pid: 8494, cores: 2)
+[2018-03-18 10:08:41,293] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 15, in he
+    json = json.dumps(data)
+UnboundLocalError: local variable 'json' referenced before assignment
+[pid: 8492|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:08:41 2018] GET / => generated 291 bytes in 87 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 10:12:19 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80388ba00 pid: 8513 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8513, cores: 2)
+spawned uWSGI worker 2 (pid: 8518, cores: 2)
+spawned uWSGI worker 3 (pid: 8519, cores: 2)
+spawned uWSGI worker 4 (pid: 8520, cores: 2)
+[pid: 8513|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:12:23 2018] GET / => generated 122 bytes in 78 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 10:32:23 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80388ba00 pid: 8568 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8568, cores: 2)
+spawned uWSGI worker 2 (pid: 8573, cores: 2)
+spawned uWSGI worker 3 (pid: 8574, cores: 2)
+spawned uWSGI worker 4 (pid: 8575, cores: 2)
+[2018-03-18 10:32:26,492] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 15, in he
+    return json.dumps(data).decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+[pid: 8573|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:32:26 2018] GET / => generated 291 bytes in 87 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 10:32:27,342] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 15, in he
+    return json.dumps(data).decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+[pid: 8573|app: 0|req: 2/2] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:32:27 2018] GET / => generated 291 bytes in 64 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 10:32:48 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80388ba00 pid: 8577 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8577, cores: 2)
+spawned uWSGI worker 2 (pid: 8582, cores: 2)
+spawned uWSGI worker 3 (pid: 8583, cores: 2)
+spawned uWSGI worker 4 (pid: 8584, cores: 2)
+[pid: 8577|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:32:51 2018] GET / => generated 122 bytes in 79 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 10:59:53 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 8708 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8708, cores: 2)
+spawned uWSGI worker 2 (pid: 8713, cores: 2)
+spawned uWSGI worker 3 (pid: 8714, cores: 2)
+spawned uWSGI worker 4 (pid: 8715, cores: 2)
+[pid: 8713|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:59:57 2018] GET / => generated 122 bytes in 79 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8714|app: 0|req: 1/2] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 10:59:58 2018] GET / => generated 122 bytes in 79 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8708|app: 0|req: 1/3] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 11:00:04 2018] GET / => generated 122 bytes in 76 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 11:11:17 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80388ba00 pid: 8785 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8785, cores: 2)
+spawned uWSGI worker 2 (pid: 8790, cores: 2)
+spawned uWSGI worker 3 (pid: 8791, cores: 2)
+spawned uWSGI worker 4 (pid: 8792, cores: 2)
+[2018-03-18 11:11:23,462] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 16, in he
+    f.write(data)
+TypeError: write() argument must be str, not tuple
+[pid: 8791|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 11:11:23 2018] GET / => generated 291 bytes in 87 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 11:14:25 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80388ba00 pid: 8797 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8797, cores: 2)
+spawned uWSGI worker 2 (pid: 8802, cores: 2)
+spawned uWSGI worker 3 (pid: 8803, cores: 2)
+spawned uWSGI worker 4 (pid: 8804, cores: 2)
+[pid: 8802|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 11:14:32 2018] GET /?sbsbm=006146 => generated 122 bytes in 119 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 11:57:57 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 34035 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 34035, cores: 2)
+spawned uWSGI worker 2 (pid: 34040, cores: 2)
+spawned uWSGI worker 3 (pid: 34041, cores: 2)
+spawned uWSGI worker 4 (pid: 34042, cores: 2)
+[2018-03-18 11:58:01,985] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 16, in he
+    f.write(json.dumps(data).encode('utf8'))
+TypeError: write() argument must be str, not bytes
+[pid: 34040|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 11:58:01 2018] GET /?sbsbm=006146 => generated 291 bytes in 86 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 12:01:00 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80382d400 pid: 34063 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 34063, cores: 2)
+spawned uWSGI worker 2 (pid: 34068, cores: 2)
+spawned uWSGI worker 3 (pid: 34069, cores: 2)
+spawned uWSGI worker 4 (pid: 34070, cores: 2)
+[2018-03-18 12:01:02,591] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 16, in he
+    x.encode('utf8')
+AttributeError: 'tuple' object has no attribute 'encode'
+[pid: 34069|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 12:01:02 2018] GET /?sbsbm=006146 => generated 291 bytes in 86 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 12:01:04,016] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 16, in he
+    x.encode('utf8')
+AttributeError: 'tuple' object has no attribute 'encode'
+[pid: 34070|app: 0|req: 1/2] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 12:01:03 2018] GET /?sbsbm=006146 => generated 291 bytes in 85 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 12:17:19 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 34095, cores: 2)
+spawned uWSGI worker 2 (pid: 34100, cores: 2)
+spawned uWSGI worker 3 (pid: 34101, cores: 2)
+spawned uWSGI worker 4 (pid: 34102, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 34100|app: -1|req: -1/1] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 12:17:24 2018] GET /?sbsbm=006146 => generated 21 bytes in 4 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 12:17:45 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 34105, cores: 2)
+spawned uWSGI worker 2 (pid: 34110, cores: 2)
+spawned uWSGI worker 3 (pid: 34111, cores: 2)
+spawned uWSGI worker 4 (pid: 34112, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 34111|app: -1|req: -1/1] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 12:17:47 2018] GET /?sbsbm=006146 => generated 21 bytes in 4 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 34110|app: -1|req: -1/2] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 12:17:48 2018] GET /?sbsbm=006146 => generated 21 bytes in 4 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 8, in <module>
+    reload(sys)
+NameError: name 'reload' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 34110|app: -1|req: -1/3] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 12:17:48 2018] GET /?sbsbm=006146 => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 12:18:41 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 34114 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 34114, cores: 2)
+spawned uWSGI worker 2 (pid: 34119, cores: 2)
+spawned uWSGI worker 3 (pid: 34120, cores: 2)
+spawned uWSGI worker 4 (pid: 34121, cores: 2)
+[pid: 34120|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 755 bytes} [Sun Mar 18 12:18:43 2018] GET /?sbsbm=006146 => generated 372 bytes in 80 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34119|app: 0|req: 1/2] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 12:24:59 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 41 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34119|app: 0|req: 2/3] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 12:39:56 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34120|app: 0|req: 2/4] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 12:54:59 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 33 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34121|app: 0|req: 1/5] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 13:09:56 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 41 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34120|app: 0|req: 3/6] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 13:24:55 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34120|app: 0|req: 4/7] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 13:39:56 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34121|app: 0|req: 2/8] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 13:54:56 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34121|app: 0|req: 3/9] 110.249.219.170 () {48 vars in 817 bytes} [Sun Mar 18 14:05:53 2018] GET / => generated 372 bytes in 75 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34121|app: 0|req: 4/10] 110.249.219.170 () {48 vars in 797 bytes} [Sun Mar 18 14:05:53 2018] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34120|app: 0|req: 5/11] 110.249.219.170 () {52 vars in 801 bytes} [Sun Mar 18 14:07:02 2018] GET /weapp/user => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34114|app: 0|req: 1/12] 110.249.219.170 () {52 vars in 801 bytes} [Sun Mar 18 14:07:05 2018] GET /weapp/user => generated 233 bytes in 42 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34119|app: 0|req: 3/13] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:07:17 2018] GET / => generated 372 bytes in 73 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34121|app: 0|req: 5/14] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:07:18 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34121|app: 0|req: 6/15] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:07:18 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34114|app: 0|req: 2/16] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:07:18 2018] GET / => generated 372 bytes in 71 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34119|app: 0|req: 4/17] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:07:19 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34121|app: 0|req: 7/18] 110.249.219.170 () {48 vars in 820 bytes} [Sun Mar 18 14:07:27 2018] GET /?2 => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34121|app: 0|req: 8/19] 110.249.219.170 () {48 vars in 830 bytes} [Sun Mar 18 14:07:35 2018] GET /?006117 => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34121|app: 0|req: 9/20] 110.249.219.170 () {50 vars in 743 bytes} [Sun Mar 18 14:08:18 2018] GET /weapp/user => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34114|app: 0|req: 3/21] 110.249.219.170 () {52 vars in 801 bytes} [Sun Mar 18 14:08:19 2018] GET /weapp/user => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34121|app: 0|req: 10/22] 110.249.219.170 () {50 vars in 743 bytes} [Sun Mar 18 14:08:20 2018] GET /weapp/user => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34120|app: 0|req: 6/23] 110.249.219.170 () {52 vars in 801 bytes} [Sun Mar 18 14:08:21 2018] GET /weapp/user => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34120|app: 0|req: 7/24] 110.249.219.170 () {48 vars in 823 bytes} [Sun Mar 18 14:08:30 2018] GET /app => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34120|app: 0|req: 8/25] 110.249.219.170 () {48 vars in 825 bytes} [Sun Mar 18 14:08:35 2018] GET /app/ => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (2 switches on core 1)
+[pid: 34121|app: 0|req: 11/26] 110.249.219.170 () {52 vars in 781 bytes} [Sun Mar 18 14:09:00 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34120|app: 0|req: 9/27] 110.249.219.170 () {50 vars in 723 bytes} [Sun Mar 18 14:09:04 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34120|app: 0|req: 10/28] 110.249.219.130 () {48 vars in 987 bytes} [Sun Mar 18 14:09:26 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34120|app: 0|req: 11/29] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 14:09:54 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34121|app: 0|req: 12/30] 110.249.219.130 () {48 vars in 987 bytes} [Sun Mar 18 14:10:11 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34121|app: 0|req: 13/31] 110.249.219.170 () {52 vars in 781 bytes} [Sun Mar 18 14:10:19 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34120|app: 0|req: 12/32] 110.249.219.170 () {50 vars in 723 bytes} [Sun Mar 18 14:10:20 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34120|app: 0|req: 13/33] 110.249.219.170 () {52 vars in 781 bytes} [Sun Mar 18 14:10:22 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34120|app: 0|req: 14/34] 110.249.219.170 () {52 vars in 801 bytes} [Sun Mar 18 14:16:36 2018] GET /weapp/user => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34114|app: 0|req: 4/35] 110.249.219.130 () {48 vars in 1011 bytes} [Sun Mar 18 14:18:21 2018] GET /weapp/tunnel => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34119|app: 0|req: 5/36] 110.249.219.130 () {48 vars in 1011 bytes} [Sun Mar 18 14:18:44 2018] GET /weapp/tunnel => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34114|app: 0|req: 5/37] 110.249.219.130 () {46 vars in 1022 bytes} [Sun Mar 18 14:19:00 2018] POST /weapp/upload => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34119|app: 0|req: 6/38] 110.249.219.170 () {48 vars in 817 bytes} [Sun Mar 18 14:19:25 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34119|app: 0|req: 7/39] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:19:27 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34120|app: 0|req: 15/40] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:19:27 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34114|app: 0|req: 6/41] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:19:27 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34121|app: 0|req: 14/42] 110.249.219.170 () {50 vars in 848 bytes} [Sun Mar 18 14:19:27 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34121|app: 0|req: 15/43] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 14:24:54 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+Gracefully killing worker 4 (pid: 34121)...
+Gracefully killing worker 2 (pid: 34119)...
+Gracefully killing worker 1 (pid: 34114)...
+Gracefully killing worker 3 (pid: 34120)...
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 17:50:18 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80382d400 pid: 34738 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 34738, cores: 2)
+spawned uWSGI worker 2 (pid: 34743, cores: 2)
+spawned uWSGI worker 3 (pid: 34744, cores: 2)
+spawned uWSGI worker 4 (pid: 34745, cores: 2)
+[pid: 34744|app: 0|req: 1/1] 117.136.81.206 () {48 vars in 760 bytes} [Sun Mar 18 17:50:25 2018] GET /?sbsbm=006146 => generated 372 bytes in 80 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 2/2] 117.136.81.206 () {50 vars in 754 bytes} [Sun Mar 18 17:54:08 2018] GET /?x=undefined&y=sbsbm => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 1/3] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 17:54:41 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 43 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 3/4] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 18:09:39 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 36 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 2/5] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 18:24:41 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 4/6] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 18:27:18 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 70 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 5/7] 110.249.219.170 () {46 vars in 747 bytes} [Sun Mar 18 18:37:52 2018] GET / => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 3/8] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:37:55 2018] GET / => generated 372 bytes in 73 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 1/9] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:37:55 2018] GET / => generated 372 bytes in 80 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 34743|app: 0|req: 4/10] 60.191.38.77 () {42 vars in 627 bytes} [Sun Mar 18 18:38:02 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 1/11] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:39:06 2018] GET / => generated 372 bytes in 80 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 2/12] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 18:39:38 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 33 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 5/13] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:44:44 2018] GET / => generated 372 bytes in 67 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 6/14] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:44:45 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 3/15] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:50:39 2018] GET / => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 7/16] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:50:40 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 8/17] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 18:54:40 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 4/18] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:56:48 2018] GET / => generated 372 bytes in 70 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 34744|app: 0|req: 6/19] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:56:49 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 9/20] 117.136.81.206 () {50 vars in 800 bytes} [Sun Mar 18 18:58:55 2018] GET /?x=%7B%22summary%22%3A%22dsfd%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 10/21] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:59:47 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 11/22] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 18:59:47 2018] GET / => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 2/23] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 19:00:51 2018] GET / => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 7/24] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 19:00:52 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 5/25] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 19:03:59 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 3/26] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 19:04:00 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 8/27] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 19:04:00 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 6/28] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 19:09:38 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 9/29] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 19:24:40 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 7/30] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:30:43 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 67 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 10/31] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:32:06 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 12/32] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:32:33 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 4/33] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:33:23 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 5/34] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 19:34:14 2018] GET / => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 11/35] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 19:36:04 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 6/36] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:39:28 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 7/37] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:39:31 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 13/38] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 19:39:42 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 8/39] 117.136.81.206 () {48 vars in 760 bytes} [Sun Mar 18 19:44:56 2018] GET /?sbsbm=006146 => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 12/40] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:46:42 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 8/41] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:46:44 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 67 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 9/42] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:46:44 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 10/43] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:46:45 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 34738|app: 0|req: 11/44] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:46:47 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 13/45] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:47:52 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 14/46] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:48:19 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 14/47] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:49:40 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 15/48] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:51:48 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 15/49] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:52:16 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 9/50] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 19:53:36 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 16/51] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 19:54:39 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 16/52] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 20:09:38 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 17/53] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:12:28 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 67 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 18/54] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:15:31 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 10/55] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:16:12 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 17/56] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:16:31 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 34745|app: 0|req: 11/57] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:18:10 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 12/58] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:18:31 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 13/59] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:18:43 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 14/60] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:19:02 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 12/61] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:21:08 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 13/62] 185.12.179.98 () {42 vars in 608 bytes} [Sun Mar 18 20:21:53 2018] GET //a2billing/customer/templates/default/footer.tpl => generated 233 bytes in 34 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 15/63] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:22:11 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 69 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 14/64] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:23:18 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 15/65] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:23:30 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 19/66] 54.223.164.204 () {40 vars in 595 bytes} [Sun Mar 18 20:24:39 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 16/67] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:24:39 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 18/68] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:26:33 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 19/69] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:27:39 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 20/70] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:28:20 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 16/71] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:28:47 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 34738|app: 0|req: 17/72] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:29:31 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 21/73] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:29:41 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 22/74] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:30:01 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 18/75] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:30:51 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 17/76] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:31:32 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 20/77] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:31:56 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 23/78] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:32:07 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 24/79] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:32:26 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 21/80] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:32:57 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 18/81] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:35:35 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 22/82] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:36:39 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 25/83] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:37:34 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 19/84] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:39:35 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 26/85] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 20:39:38 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 27/86] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:41:39 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 23/87] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:42:17 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 19/88] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:42:18 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 34745|app: 0|req: 20/89] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 20:44:51 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 20/90] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 20:44:51 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34738|app: 0|req: 21/91] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 20:44:52 2018] GET / => generated 372 bytes in 62 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34738|app: 0|req: 22/92] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 20:44:52 2018] GET / => generated 372 bytes in 62 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 28/93] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:46:57 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 29/94] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:48:52 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 24/95] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:49:48 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34743|app: 0|req: 25/96] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:50:16 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 30/97] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:51:21 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 31/98] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:52:12 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 21/99] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:52:12 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 32/100] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:52:46 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34745|app: 0|req: 22/101] 110.249.219.170 () {48 vars in 778 bytes} [Sun Mar 18 20:53:02 2018] GET / => generated 372 bytes in 64 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 33/102] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 20:54:40 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 34745|app: 0|req: 23/103] 117.136.81.206 () {50 vars in 792 bytes} [Sun Mar 18 20:54:40 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbsbm => generated 372 bytes in 62 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34744|app: 0|req: 34/104] 117.136.81.206 () {48 vars in 760 bytes} [Sun Mar 18 21:05:45 2018] GET /?sbsbm=006146 => generated 372 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 34744|app: 0|req: 35/105] 117.136.81.206 () {48 vars in 760 bytes} [Sun Mar 18 21:05:47 2018] GET /?sbsbm=006146 => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 34743|app: 0|req: 26/106] 117.136.81.206 () {46 vars in 704 bytes} [Sun Mar 18 21:05:54 2018] GET / => generated 372 bytes in 63 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 21:07:06 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 35125 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35125, cores: 2)
+spawned uWSGI worker 2 (pid: 35130, cores: 2)
+spawned uWSGI worker 3 (pid: 35131, cores: 2)
+spawned uWSGI worker 4 (pid: 35132, cores: 2)
+[2018-03-18 21:07:13,029] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35131|app: 0|req: 1/1] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 21:07:13 2018] GET / => generated 291 bytes in 17 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 21:07:21,849] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35131|app: 0|req: 2/2] 117.136.81.206 () {50 vars in 794 bytes} [Sun Mar 18 21:07:21 2018] GET /?x=%7B%22summary%22%3A%22%22%7D&y=sbzcdm => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 1)
+[2018-03-18 21:07:50,601] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35131|app: 0|req: 3/3] 117.136.81.206 () {50 vars in 804 bytes} [Sun Mar 18 21:07:50 2018] GET /?x=%7B%22summary%22%3A%22006141%22%7D&y=sbsbm => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 21:08:07,232] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35131|app: 0|req: 4/4] 117.136.81.206 () {50 vars in 804 bytes} [Sun Mar 18 21:08:07 2018] GET /?x=%7B%22summary%22%3A%22006141%22%7D&y=sbsbm => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 1)
+[2018-03-18 21:08:18,831] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35130|app: 0|req: 1/5] 60.191.38.77 () {42 vars in 627 bytes} [Sun Mar 18 21:08:18 2018] GET / => generated 291 bytes in 19 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 21:08:56,234] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35132|app: 0|req: 1/6] 117.136.81.206 () {46 vars in 737 bytes} [Sun Mar 18 21:08:56 2018] GET /?x=sbsbm&y=006141 => generated 291 bytes in 16 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 21:10:31 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80382d400 pid: 35138 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35138, cores: 2)
+spawned uWSGI worker 2 (pid: 35143, cores: 2)
+spawned uWSGI worker 3 (pid: 35144, cores: 2)
+spawned uWSGI worker 4 (pid: 35145, cores: 2)
+[2018-03-18 21:10:35,492] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35143|app: 0|req: 1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 21:10:35 2018] GET /?x=sbsbm&y=006141 => generated 291 bytes in 17 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 21:10:36,923] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35144|app: 0|req: 1/2] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 21:10:36 2018] GET /?x=sbsbm&y=006141 => generated 291 bytes in 17 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 21:10:38,423] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35143|app: 0|req: 2/3] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 21:10:38 2018] GET /?x=sbsbm&y=006141 => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 21:11:13 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 35160 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35160, cores: 2)
+spawned uWSGI worker 2 (pid: 35165, cores: 2)
+spawned uWSGI worker 3 (pid: 35166, cores: 2)
+spawned uWSGI worker 4 (pid: 35167, cores: 2)
+[2018-03-18 21:11:16,938] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 16, in he
+    cursor.execute("SELECT * FROM WXCXGNDB WHERE SBSBM = 006141")
+  File "/usr/local/lib/python3.6/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'SBSBM' in 'where clause'")
+[pid: 35166|app: 0|req: 1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 21:11:16 2018] GET /?x=sbsbm&y=006141 => generated 291 bytes in 54 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 21:11:21,570] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 16, in he
+    cursor.execute("SELECT * FROM WXCXGNDB WHERE SBSBM = 006141")
+  File "/usr/local/lib/python3.6/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'SBSBM' in 'where clause'")
+[pid: 35167|app: 0|req: 1/2] 117.136.81.206 () {46 vars in 704 bytes} [Sun Mar 18 21:11:21 2018] GET / => generated 291 bytes in 33 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 21:11:23,646] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 16, in he
+    cursor.execute("SELECT * FROM WXCXGNDB WHERE SBSBM = 006141")
+  File "/usr/local/lib/python3.6/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'SBSBM' in 'where clause'")
+[pid: 35166|app: 0|req: 2/3] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 21:11:23 2018] GET / => generated 291 bytes in 6 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 21:13:27 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 35194 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35194, cores: 2)
+spawned uWSGI worker 2 (pid: 35199, cores: 2)
+spawned uWSGI worker 3 (pid: 35200, cores: 2)
+spawned uWSGI worker 4 (pid: 35201, cores: 2)
+/usr/local/lib/python3.6/site-packages/pymysql/cursors.py:165: Warning: (1292, "Truncated incorrect DOUBLE value: '3110130122015107877\u3000'")
+  result = self._query(query)
+[pid: 35199|app: 0|req: 1/1] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 21:13:35 2018] GET / => generated 7516 bytes in 103 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+/usr/local/lib/python3.6/site-packages/pymysql/cursors.py:165: Warning: (1292, "Truncated incorrect DOUBLE value: '3110130122015107877\u3000'")
+  result = self._query(query)
+[pid: 35201|app: 0|req: 1/2] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 21:13:40 2018] GET / => generated 7516 bytes in 101 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 22:51:45 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80382d400 pid: 35482 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35482, cores: 2)
+spawned uWSGI worker 2 (pid: 35487, cores: 2)
+spawned uWSGI worker 3 (pid: 35488, cores: 2)
+spawned uWSGI worker 4 (pid: 35489, cores: 2)
+[pid: 35487|app: 0|req: 1/1] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 22:54:40 2018] GET /.well-known/pki-validation/fileauth.txt => generated 233 bytes in 41 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[2018-03-18 22:57:02,623] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35487|app: 0|req: 2/2] 117.136.81.206 () {50 vars in 770 bytes} [Sun Mar 18 22:57:02 2018] GET /?x=[object%20Object]&y=sbsbm => generated 291 bytes in 11 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 1)
+[2018-03-18 22:57:21,346] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35489|app: 0|req: 1/3] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 22:57:21 2018] GET / => generated 291 bytes in 15 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[2018-03-18 22:57:56,776] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35487|app: 0|req: 3/4] 117.136.81.206 () {46 vars in 737 bytes} [Sun Mar 18 22:57:56 2018] GET /?x=SBSBM&y=006149 => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 22:58:03 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 35504 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35504, cores: 2)
+spawned uWSGI worker 2 (pid: 35509, cores: 2)
+spawned uWSGI worker 3 (pid: 35510, cores: 2)
+spawned uWSGI worker 4 (pid: 35511, cores: 2)
+[2018-03-18 22:58:07,104] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 12, in he
+    code_type = request.form.get("x")
+NameError: name 'request' is not defined
+[pid: 35510|app: 0|req: 1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 22:58:07 2018] GET /?x=SBSBM&y=006149 => generated 291 bytes in 15 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:06:14 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35542, cores: 2)
+spawned uWSGI worker 2 (pid: 35547, cores: 2)
+spawned uWSGI worker 3 (pid: 35548, cores: 2)
+spawned uWSGI worker 4 (pid: 35549, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35547|app: -1|req: -1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:06:20 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 7 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35548|app: -1|req: -1/2] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:06:22 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35548|app: -1|req: -1/3] 117.136.81.206 () {46 vars in 737 bytes} [Sun Mar 18 23:06:29 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:09:26 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35551, cores: 2)
+spawned uWSGI worker 2 (pid: 35556, cores: 2)
+spawned uWSGI worker 3 (pid: 35557, cores: 2)
+spawned uWSGI worker 4 (pid: 35558, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35558|app: -1|req: -1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:09:31 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 9 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35557|app: -1|req: -1/2] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:09:33 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35557|app: -1|req: -1/3] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:09:34 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == "GET")
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35558|app: -1|req: -1/4] 54.222.158.31 () {40 vars in 594 bytes} [Sun Mar 18 23:09:43 2018] GET /.well-known/pki-validation/fileauth.txt => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:11:03 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35575, cores: 2)
+spawned uWSGI worker 2 (pid: 35580, cores: 2)
+spawned uWSGI worker 3 (pid: 35581, cores: 2)
+spawned uWSGI worker 4 (pid: 35582, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35575|app: -1|req: -1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:11:08 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:12:09 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35585, cores: 2)
+spawned uWSGI worker 2 (pid: 35590, cores: 2)
+spawned uWSGI worker 3 (pid: 35591, cores: 2)
+spawned uWSGI worker 4 (pid: 35592, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35592|app: -1|req: -1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:12:11 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35592|app: -1|req: -1/2] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:12:13 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35591|app: -1|req: -1/3] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:12:14 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35590|app: -1|req: -1/4] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:12:15 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 7 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:12:39 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35613, cores: 2)
+spawned uWSGI worker 2 (pid: 35618, cores: 2)
+spawned uWSGI worker 3 (pid: 35619, cores: 2)
+spawned uWSGI worker 4 (pid: 35620, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35619|app: -1|req: -1/1] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:12:44 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35618|app: -1|req: -1/2] 117.136.81.206 () {48 vars in 768 bytes} [Sun Mar 18 23:12:46 2018] GET /?x=SBSBM&y=006149 => generated 21 bytes in 9 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35620|app: -1|req: -1/3] 117.136.81.206 () {46 vars in 704 bytes} [Sun Mar 18 23:12:50 2018] GET / => generated 21 bytes in 9 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method == ['GET'])
+NameError: name 'method' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35620|app: -1|req: -1/4] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 23:12:52 2018] GET / => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:13:57 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method = ['GET'])
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1043, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+TypeError: __init__() got an unexpected keyword argument 'method'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method = ['GET'])
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1043, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+TypeError: __init__() got an unexpected keyword argument 'method'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35623, cores: 2)
+spawned uWSGI worker 2 (pid: 35628, cores: 2)
+spawned uWSGI worker 3 (pid: 35629, cores: 2)
+spawned uWSGI worker 4 (pid: 35630, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method = ['GET'])
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1043, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+TypeError: __init__() got an unexpected keyword argument 'method'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35629|app: -1|req: -1/1] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 23:14:00 2018] GET / => generated 21 bytes in 11 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 10, in <module>
+    @app.route("/", method = ['GET'])
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1043, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+TypeError: __init__() got an unexpected keyword argument 'method'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 35629|app: -1|req: -1/2] 117.136.81.206 () {48 vars in 735 bytes} [Sun Mar 18 23:14:02 2018] GET / => generated 21 bytes in 5 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:15:17 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x80382d400 pid: 35636 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35636, cores: 2)
+spawned uWSGI worker 2 (pid: 35641, cores: 2)
+spawned uWSGI worker 3 (pid: 35642, cores: 2)
+spawned uWSGI worker 4 (pid: 35643, cores: 2)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 23:15:42 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80382d400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80382d400 pid: 35645 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 35645, cores: 2)
+spawned uWSGI worker 2 (pid: 35650, cores: 2)
+spawned uWSGI worker 3 (pid: 35651, cores: 2)
+spawned uWSGI worker 4 (pid: 35652, cores: 2)

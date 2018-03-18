@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "0x9数据",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1BC293",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "查询"
+      },{
+        "pagePath": "pages/logs/logs",
+        "text":"日志"
+      }
+    ]
+  }
+}

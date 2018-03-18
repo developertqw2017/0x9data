@@ -1,0 +1,59 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.week {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.weeknum {
+  background-color: #1bc293;
+  border-radius: 50%;
+  padding: 10px;
+  color: #fff !important;
+}
+
+.tip {
+  font-size: 24px;
+  color: #1bc293;
+}
+
+.title-label {
+  background-color: #fdfdfd;
+  padding: 28rpx;
+   margin-bottom:10px;
+ 
+}
+
+.title-text {
+  font-weight: bold;
+}
+
+textarea {
+  margin: 10px 0px;
+    padding: 0 20rpx;
+  width: 100%;
+  color: #666;
+  font-weight: light;
+}

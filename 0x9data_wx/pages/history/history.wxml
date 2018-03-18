@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{search_date}}" wx:key="unique" data-index="{{index}}"  class="card">
+    <text class="header">{{search_date}}</text>
+    <view class="body">
+      <text class="body-title">{{sbsbm}}</text>
+      <text>{{sbzcdm}}</text>
+      <text>{{dtazdz}}</text>
+      <text>{{wbdwmc}}</text>
+      <text class="body-title">{{sydw}}</text>
+      <text>{{sydwnbbh}}</text>
+      <text>{{dtjyjg}}</text>
+      <text>{{zjjyrq}}</text>
+      <text>{{zjwbrq}}</text>
+    </view>
+    <text class="footer">总结:</text>
+  </view>
+</view>

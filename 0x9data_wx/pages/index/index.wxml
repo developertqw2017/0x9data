@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="week">
+    <text class="tip">第</text>
+    <text class="tip weeknum">{{weeknum}}</text>
+    <text class="tip">周</text>
+  </view>
+  <view class="{{display_write}}">
+  <form bindsubmit="formSubmit">
+    <view class="title-label">
+      <picker-view indicator-style="height: 50px;" style="width: 100%; height: 105px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view  wx:for="{{device_code}}" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+  </picker-view>
+    </view>
+    <view class="title-label">
+      <text class="title-text">查找</text>
+      <textarea name="summary" auto-height placeholder="请输入" show-confirm-bar="false" />
+    </view>
+    <view class="btn">
+      <button formType="submit" class="submit">search</button>
+    </view>
+    </form>
+  </view>
+</view>

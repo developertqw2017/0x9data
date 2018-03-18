@@ -1,0 +1,59 @@
+/**app.wxss**/
+page{
+  background-color: #f7f7f7;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+ /** align-items: center;**/
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+} 
+
+.hide{
+  display: none;
+}
+.submit {
+  background-color: #1BC293;
+  color: #fff;
+  margin:20rpx;
+  
+
+}
+.submit:active {
+  background-color: #0eab7f;
+}
+
+.card {
+  border: 1px solid #f9f9f9;
+  border-radius: 10rpx;
+  margin: 28rpx;
+  background-color: #fff;
+}
+
+.card .header {
+  padding: 20rpx;
+  border-radius: 10rpx 10rpx 0px 0px;
+  background-color: #1BC293;
+  color: #fff;
+}
+
+.card .footer {
+  padding: 20rpx;
+}
+
+.card .body {
+  padding: 20rpx;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.card>text,.card .body>text {
+  display: block;
+}
+.card .body .body-title{
+  font-weight: bold;
+}
+
