@@ -1,0 +1,7 @@
+pymysql==0.8.0
+uwsgi==2.0.17
+ConfigParser==3.5.0
+MySQL-Python==1.2.5
+PyMySQL==0.8.0
+setuptools==38.6.0
+wheel==0.30.0

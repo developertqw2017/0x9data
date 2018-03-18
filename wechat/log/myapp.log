@@ -1,0 +1,634 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:13:13 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8069)
+spawned uWSGI worker 1 (pid: 8074, cores: 2)
+spawned uWSGI worker 2 (pid: 8075, cores: 2)
+spawned uWSGI worker 3 (pid: 8076, cores: 2)
+spawned uWSGI worker 4 (pid: 8077, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:13:31 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8078)
+spawned uWSGI worker 1 (pid: 8083, cores: 2)
+spawned uWSGI worker 2 (pid: 8084, cores: 2)
+spawned uWSGI worker 3 (pid: 8085, cores: 2)
+spawned uWSGI worker 4 (pid: 8086, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8084|app: -1|req: -1/1] 58.19.3.64 () {40 vars in 620 bytes} [Sun Mar 18 09:14:04 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8085|app: -1|req: -1/2] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:14:04 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8084|app: -1|req: -1/3] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:14:05 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8083|app: -1|req: -1/4] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:14:05 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8083|app: -1|req: -1/5] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:14:05 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8086|app: -1|req: -1/6] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:14:06 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:18:30 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8108)
+spawned uWSGI worker 1 (pid: 8113, cores: 2)
+spawned uWSGI worker 2 (pid: 8114, cores: 2)
+spawned uWSGI worker 3 (pid: 8115, cores: 2)
+spawned uWSGI worker 4 (pid: 8116, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8113|app: -1|req: -1/1] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:18:34 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8115|app: -1|req: -1/2] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:18:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8113|app: -1|req: -1/3] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:18:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8114|app: -1|req: -1/4] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:18:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8115|app: -1|req: -1/5] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:18:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8115|app: -1|req: -1/6] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:18:36 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:20:48 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8143)
+spawned uWSGI worker 1 (pid: 8148, cores: 2)
+spawned uWSGI worker 2 (pid: 8149, cores: 2)
+spawned uWSGI worker 3 (pid: 8150, cores: 2)
+spawned uWSGI worker 4 (pid: 8151, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8151|app: -1|req: -1/1] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:20:54 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8148|app: -1|req: -1/2] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:20:55 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:30:05 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8222)
+spawned uWSGI worker 1 (pid: 8227, cores: 2)
+spawned uWSGI worker 2 (pid: 8228, cores: 2)
+spawned uWSGI worker 3 (pid: 8229, cores: 2)
+spawned uWSGI worker 4 (pid: 8230, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8228|app: -1|req: -1/1] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:30:09 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:31:52 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/HEBSJZ_96365/wechat/app
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8233)
+spawned uWSGI worker 1 (pid: 8238, cores: 2)
+spawned uWSGI worker 2 (pid: 8239, cores: 2)
+spawned uWSGI worker 3 (pid: 8240, cores: 2)
+spawned uWSGI worker 4 (pid: 8241, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8239|app: -1|req: -1/1] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:31:56 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8240|app: -1|req: -1/2] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:31:57 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8239|app: -1|req: -1/3] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:31:57 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8240|app: -1|req: -1/4] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:31:57 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:32:34 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/HEBSJZ_96365/wechat/app
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8246)
+spawned uWSGI worker 1 (pid: 8251, cores: 2)
+spawned uWSGI worker 2 (pid: 8252, cores: 2)
+spawned uWSGI worker 3 (pid: 8253, cores: 2)
+spawned uWSGI worker 4 (pid: 8254, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8253|app: -1|req: -1/1] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:32:37 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8254|app: -1|req: -1/2] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:32:37 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8251|app: -1|req: -1/3] 58.19.3.64 () {46 vars in 685 bytes} [Sun Mar 18 09:32:38 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:35:07 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/HEBSJZ_96365/wechat/app
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8292)
+spawned uWSGI worker 1 (pid: 8297, cores: 2)
+spawned uWSGI worker 2 (pid: 8298, cores: 2)
+spawned uWSGI worker 3 (pid: 8299, cores: 2)
+spawned uWSGI worker 4 (pid: 8300, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8297|app: -1|req: -1/1] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:35:10 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8297|app: -1|req: -1/2] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:35:11 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8298|app: -1|req: -1/3] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:35:11 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8299|app: -1|req: -1/4] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:35:12 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:40:05 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/HEBSJZ_96365/wechat/app
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8315)
+spawned uWSGI worker 1 (pid: 8320, cores: 2)
+spawned uWSGI worker 2 (pid: 8321, cores: 2)
+spawned uWSGI worker 3 (pid: 8322, cores: 2)
+spawned uWSGI worker 4 (pid: 8323, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191	//get uwsgi address of statistics infomation fd: 16 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 8320|app: -1|req: -1/1] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:40:09 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8323|app: -1|req: -1/2] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:40:10 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 8323|app: -1|req: -1/3] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:40:10 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8320|app: -1|req: -1/4] 58.19.3.64 () {44 vars in 664 bytes} [Sun Mar 18 09:40:11 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:44:30 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8361, cores: 2)
+spawned uWSGI worker 2 (pid: 8366, cores: 2)
+spawned uWSGI worker 3 (pid: 8367, cores: 2)
+spawned uWSGI worker 4 (pid: 8368, cores: 2)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 8368|app: -1|req: -1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 09:44:35 2018] GET / => generated 21 bytes in 5 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+chdir(): No such file or directory [plugins/python/pyloader.c line 109]
+Traceback (most recent call last):
+  File "/home/HEBSJZ_96365/wechat/app/he.py", line 3, in <module>
+    import request
+ModuleNotFoundError: No module named 'request'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 8367|app: -1|req: -1/2] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 09:44:36 2018] GET / => generated 21 bytes in 5 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Mar 18 09:45:29 2018] ***
+compiled with version: 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347) on 17 March 2018 03:24:55
+os: FreeBSD-11.1-RELEASE-p8 FreeBSD 11.1-RELEASE-p8 #0: Tue Mar 13 17:07:05 UTC 2018     root@amd64-builder.daemonology.net:/usr/obj/usr/src/sys/GENERIC
+nodename: MitBit.Local
+machine: amd64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /usr/home/HEBSJZ_96365/wechat/config
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 12186
+your memory page size is 4096 bytes
+detected max file descriptor number: 234999
+lock engine: POSIX semaphores
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.4 (default, Mar  8 2018, 01:18:35)  [GCC 4.2.1 Compatible FreeBSD Clang 4.0.0 (tags/RELEASE_400/final 297347)]
+Python main interpreter initialized at 0x80388ba00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/HEBSJZ_96365/wechat/app/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x80388ba00 pid: 8374 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 8374, cores: 2)
+spawned uWSGI worker 2 (pid: 8379, cores: 2)
+spawned uWSGI worker 3 (pid: 8380, cores: 2)
+spawned uWSGI worker 4 (pid: 8381, cores: 2)
+[pid: 8380|app: 0|req: 1/1] 58.19.3.64 () {48 vars in 730 bytes} [Sun Mar 18 09:45:31 2018] GET / => generated 2 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
