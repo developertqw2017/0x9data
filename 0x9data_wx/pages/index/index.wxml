@@ -3,7 +3,7 @@
   <view class="week">
     <text class="tip">第</text>
     <text class="tip weeknum">{{weeknum}}</text>
-    <text class="tip">周</text>
+    <text class="tip">查询</text>
   </view>
   <view class="{{display_write}}">
   <form bindsubmit="formSubmit">

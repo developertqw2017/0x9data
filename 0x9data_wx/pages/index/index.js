@@ -52,23 +52,34 @@ Page({
         'content-type': 'application/json' // 默认值
       },
       dataType:'json',
+      fail: function () {
+        wx.showToast({
+          title: "发生未知错误",
+          icon: "none",
+          duration: 2000
+        })
+      },
       success: function (res) {
         //var time_save = util.formatTime(new Date());
+        if(res.statusCode == 200){
         that.setData({
           json:res.data[0]
-        })
+        }),
         console.log("set");
         console.log(that.data.json)
-        wx.setStorage({
-          key: '1',//time_save,
-          data: res.data[0]
-        });
         console.log("res data");
         console.log(JSON.stringify(that.data.json));
         wx.navigateTo({
           url: '/pages/history/history?json=' + JSON.stringify(that.data.json),
         })
+      }else{
+          wx.showToast({
+            title: "未查询到信息",
+            icon: "none",
+            duration: 2000
+          })
       }
+      },
     })
     console.log('form发生了submit事件，携带数据为：', e.detail.value,this.data.device_code_now)
   },
