@@ -16,7 +16,7 @@
     </view>
     <view class="title-label">
       <text class="title-text">查找</text>
-      <textarea name="summary" auto-height placeholder="请输入" show-confirm-bar="false" />
+      <input type="number" name="summary" auto-height placeholder="请输入" show-confirm-bar="false" />
     </view>
     <view class="btn">
       <button formType="submit" class="submit">search</button>
