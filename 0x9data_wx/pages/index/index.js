@@ -21,7 +21,6 @@ Page({
     device_code_now:'sbsbm',
     time:''
   },
-
   bindChange: function (e) {
     val += 1;
     if(val%2==0){

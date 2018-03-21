@@ -8,6 +8,7 @@
   <view class="{{display_write}}">
   <form bindsubmit="formSubmit">
     <view class="title-label">
+    <text class="title-text">查询类型(上下滚动)</text>
       <picker-view indicator-style="height: 50px;" style="width: 100%; height: 105px;" value="{{value}}" bindchange="bindChange">
     <picker-view-column>
       <view  wx:for="{{device_code}}" style="line-height: 50px">{{item}}</view>
@@ -15,11 +16,11 @@
   </picker-view>
     </view>
     <view class="title-label">
-      <text class="title-text">查找</text>
-      <input type="number" name="summary" auto-height placeholder="请输入" show-confirm-bar="false" />
+      <text class="title-text">\n</text>
+      <input type="number" name="summary" auto-height placeholder="请输入6位设备识别码或注册码" show-confirm-bar="false" />
     </view>
     <view class="btn">
-      <button formType="submit" class="submit">search</button>
+      <button formType="submit" class="submit">查询</button>
     </view>
     </form>
   </view>

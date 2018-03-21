@@ -2,17 +2,18 @@
 <view class="container">
   <view wx:for="{{search_date}}" wx:key="unique" data-index="{{index}}"  class="card">
     <text class="header">{{search_date}}</text>
+    
     <view class="body">
-      <text class="body-title">{{sbsbm}}</text>
-      <text>{{sbzcdm}}</text>
-      <text>{{dtazdz}}</text>
-      <text>{{wbdwmc}}</text>
-      <text class="body-title">{{sydw}}</text>
-      <text>{{sydwnbbh}}</text>
-      <text>{{dtjyjg}}</text>
-      <text>{{zjjyrq}}</text>
-      <text>{{zjwbrq}}</text>
+      <text class="body-title">设备识别码：{{sbsbm}}</text>
+      <text>设备注册代码：{{sbzcdm}}</text>
+      <text>电梯安装地址：{{dtazdz}}</text>
+      <text>维保单位名称：{{wbdwmc}}</text>
+      <text class="body-title">使用单位名称：{{sydw}}</text>
+      <text>使用单位内部编号：{{sydwnbbh}}</text>
+      <text>电梯检验机构：{{dtjyjg}}</text>
+      <text>最近检验日期：{{zjjyrq}}</text>
+      <text>最近维保日期{{zjwbrq}}</text>
     </view>
-    <text class="footer">总结:</text>
+    <text class="footer">该程序由0x9数据中心提供，程序仍在测试中，数据仅供参考。</text>
   </view>
 </view>
