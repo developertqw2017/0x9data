@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/history/history"
+    "pages/history_search/history_search",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,8 +18,8 @@
         "pagePath": "pages/index/index",
         "text": "查询"
       },{
-        "pagePath": "pages/logs/logs",
-        "text":"日志"
+        "pagePath": "pages/history_search/history_search",
+        "text":"历史查询"
       }
     ]
   }

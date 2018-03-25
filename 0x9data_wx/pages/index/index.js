@@ -70,7 +70,7 @@ Page({
         console.log("res data");
         console.log(JSON.stringify(that.data.json));
         wx.navigateTo({
-          url: '/pages/history/history?json=' + JSON.stringify(that.data.json),
+          url: '/pages/search/search?json=' + JSON.stringify(that.data.json),
         })
       }else{
           wx.showToast({
