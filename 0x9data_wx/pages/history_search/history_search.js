@@ -5,124 +5,115 @@ Page({
    * 页面的初始数据
    */
   data: {
-    search_date:'',
-    sbsbm:'',
-    sbzcdm:'',
-    dtazdz:'',
-    wbdwmc:'',
-    sydw:'',
-    sydwnbbh:'',
-    dtjyjg:'',
-    zjyrq:'',
-    zjwbrq:''
+    search_date: ['1'],
+    sbsbm: [],
+    sbzcdm: [],
+    dtazdz: [],
+    wbdwmc: [],
+    sydw: [],
+    sydwnbbh: [],
+    dtjyjg: [],
+    zjyrq: [],
+    zjwbrq: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function () {
-    var s1,s2,s3,s4,s5,s6,s7,s8,s9,s10;
+  onShow: function () {
+    var s1 = new Array();
+    var s2 = new Array();
+    var s3 = new Array();
+    var s4 = new Array();
+    var s5 = new Array();
+    var s6 = new Array(); 
+    var s7 = new Array(); 
+    var s8 = new Array();
+    var s9 = new Array(); 
+    var s10=new Array();
     var keys_cache;
+    console.log('fdasfdsf'+typeof(s10));
+    console.log(typeof(s1));
+    console.log('fdasf'+s1);
+    var parse_json=new Array();
+    var that=this;
+    var xx = 0;
+    console.log('fdsaf'+typeof(s2))
     wx.getStorageInfo({
       success: function (res) {
         keys_cache = res.keys
-        console.log(res.keys)
+        console.log('所有的key为' + res.keys)
         console.log(res.currentSize)
         console.log(res.limitSize)
-      }
-    })
-    for(var key in keys_cache){
-      if(key == 'log'){
-        continue;
-        wx.getStorage({
-          key: key,
-          success: function (res) {
-            console.log('数据'+key+'为'+res.data)
+        for (var key in keys_cache) {
+          console.log(key=='0')
+          if (key == '0')
+            continue;
+          wx.getStorage({
+            key: '1',
+            success: function (res) {
+              parse_json[xx] = res.data;
+
+
+
+
+              console.log("type"+typeof(s1));
+              s1[xx]= '1';
+              console.log(s1);
+              //console.log('fdasfas'+typeof(this.s2));
+              s2[xx] = parse_json[xx][0];
+              console.log(s2)
+              s3[xx] = parse_json[xx][1];
+              s4[xx] = parse_json[xx][2];
+              s5[xx] = parse_json[xx][3];
+              s6[xx] = parse_json[xx][4];
+              s7[xx] = parse_json[xx][5];
+              s8[xx] = parse_json[xx][6];
+              s9[xx] = parse_json[xx][7];
+              s10[xx] = parse_json[xx][8];
+              that.setData({
+                search_date: s1,
+                sbsbm: s2,
+                sbzcdm: s3,
+                dtazdz: s4,
+                wbdwmc: s5,
+                sydw: s6,
+                sydwnbbh: s7,
+                dtjyjg: s8,
+                zjyrq: s9,
+                zjwbrq: s10,
+              })
+              console.log(s4);
+              xx++;
+              console.log(xx);
+            }
+          })
+
+
+
+
           }
-        })
-      }
-    }
-   // wx.getStorageInfo({
-   //   success: function(res){
-   //     console.log(res.keys);
-   //     keys = res.keys;
-   //   }
-   // })
-   //       var arr = wx.getStorageSync(x);
-   //       s1 = s1.unshift(x);
-  //}
-  var parse_json=['1','32','fsds','fasdg','fbvcb','vbcb','nbv','wqer','gfdgs'];
-  console.log(parse_json[0]);
-          s2 = parse_json[0];
-          s3 = parse_json[1];
-          s4 = parse_json[2];
-          s5 = parse_json[3];
-          s6 = parse_json[4];
-          s7 = parse_json[5];
-          s8 = parse_json[6];
-          s9 = parse_json[7];
-          s10 = parse_json[8];
-    
-      
-        this.setData({
-          search_date:'1',
-          sbsbm:s2,
-          sbzcdm:s3,
-          dtazdz:s4,
-          wbdwmc:s5,
-          sydw:s6,
-          sydwnbbh:s7,
-          dtjyjg:s8,
-          zjyrq:s9,
-          zjwbrq:s10,
-        })
-      
-    var value = wx.getStorageSync('key')
+
+        }
+      })
+    console.log(s1);
+    console.log('this data' + that.data.search_date);
+
+    // wx.getStorageInfo({
+    //   success: function(res){
+    //     console.log(res.keys);
+    //     keys = res.keys;
+    //   }
+    // })
+    //       var arr = wx.getStorageSync(x);
+    //       s1 = s1.unshift(x);
+    //}
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-  
-  },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
- 
   onShareAppMessage: function (res) {
     if (res.from === 'button') {
       // 来自页面内转发按钮
