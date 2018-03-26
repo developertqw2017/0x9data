@@ -20,12 +20,28 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    var parse_json = JSON.parse(options.json);
-    this.setData({
-      json:parse_json
-    })
+  onLoad: function () {
     var s1,s2,s3,s4,s5,s6,s7,s8,s9,s10;
+    var keys_cache;
+    wx.getStorageInfo({
+      success: function (res) {
+        keys_cache = res.keys
+        console.log(res.keys)
+        console.log(res.currentSize)
+        console.log(res.limitSize)
+      }
+    })
+    for(var key in keys_cache){
+      if(key == 'log'){
+        continue;
+        wx.getStorage({
+          key: key,
+          success: function (res) {
+            console.log('数据'+key+'为'+res.data)
+          }
+        })
+      }
+    }
    // wx.getStorageInfo({
    //   success: function(res){
    //     console.log(res.keys);
@@ -35,6 +51,7 @@ Page({
    //       var arr = wx.getStorageSync(x);
    //       s1 = s1.unshift(x);
   //}
+  var parse_json=['1','32','fsds','fasdg','fbvcb','vbcb','nbv','wqer','gfdgs'];
   console.log(parse_json[0]);
           s2 = parse_json[0];
           s3 = parse_json[1];
