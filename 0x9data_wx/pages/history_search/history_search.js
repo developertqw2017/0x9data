@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    search_date: ['1'],
+    search_date: [],
     sbsbm: [],
     sbzcdm: [],
     dtazdz: [],
@@ -37,28 +37,30 @@ Page({
     console.log('fdasf'+s1);
     var parse_json=new Array();
     var that=this;
-    var xx = 0;
     console.log('fdsaf'+typeof(s2))
     wx.getStorageInfo({
       success: function (res) {
-        keys_cache = res.keys
+        keys_cache = res.keys;
         console.log('所有的key为' + res.keys)
         console.log(res.currentSize)
         console.log(res.limitSize)
-        for (var key in keys_cache) {
-          console.log(key=='0')
+        var key;
+        var xx=0;
+        for (key in keys_cache) {
+          console.log('keys:'+key);
           if (key == '0')
             continue;
+          
           wx.getStorage({
-            key: '1',
+            key: key,
             success: function (res) {
+              
+              console.log('xx:'+xx);
               parse_json[xx] = res.data;
-
-
-
-
+              console.log('data:'+res.data);
+              console.log('data_cp:' + parse_json);
               console.log("type"+typeof(s1));
-              s1[xx]= '1';
+              s1[xx]= key;
               console.log(s1);
               //console.log('fdasfas'+typeof(this.s2));
               s2[xx] = parse_json[xx][0];
@@ -72,20 +74,19 @@ Page({
               s9[xx] = parse_json[xx][7];
               s10[xx] = parse_json[xx][8];
               that.setData({
-                search_date: s1,
-                sbsbm: s2,
-                sbzcdm: s3,
-                dtazdz: s4,
-                wbdwmc: s5,
-                sydw: s6,
-                sydwnbbh: s7,
-                dtjyjg: s8,
-                zjyrq: s9,
-                zjwbrq: s10,
+                search_date: s1.reverse(),
+                sbsbm: s2.reverse(),
+                sbzcdm: s3.reverse(),
+                dtazdz: s4.reverse(),
+                wbdwmc: s5.reverse(),
+                sydw: s6.reverse(),
+                sydwnbbh: s7.reverse(),
+                dtjyjg: s8.reverse(),
+                zjyrq: s9.reverse(),
+                zjwbrq: s10.reverse(),
+                cache_num:xx,
               })
-              console.log(s4);
-              xx++;
-              console.log(xx);
+              return  xx+=1;
             }
           })
 
@@ -97,7 +98,6 @@ Page({
         }
       })
     console.log(s1);
-    console.log('this data' + that.data.search_date);
 
     // wx.getStorageInfo({
     //   success: function(res){

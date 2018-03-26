@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view wx:for="{{search_date}}" wx:key="unique" data-index="{{index}}"  wx:for-item="i" class="card">
-    <text class="header">{{i}}</text>
+    <text class="header">{{index+1}}</text>
     
     <view class="body">
       <text class="body-title">设备识别码：{{sbsbm[index]}}</text>
