@@ -28,13 +28,13 @@ export default {
       list: [
         {
           pagePath: 'pages/index/index',
-          text: '待办事项',
+          text: '待检查设备',
           iconPath: '/static/home.png',
           selectedIconPath: '/static/home-a.png',
         },
         {
           pagePath: 'pages/add/add',
-          text: '添加TODO',
+          text: '已检查设备',
           iconPath: '/static/add.png',
           selectedIconPath: '/static/add-a.png',
         },

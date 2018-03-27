@@ -1,6 +1,4 @@
-# mpvue-todolist
-
-> mpvue test
+# mpvue-tochecklist
 
 ## Build Setup
 
