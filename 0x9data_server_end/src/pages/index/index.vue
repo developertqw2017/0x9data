@@ -9,7 +9,7 @@
     <div class="list" @click="testStore">
       <div class="item" :key="index" v-for="(item, index) in todo">
         <div class="content">{{index + 1}}: {{item.content}}</div>
-        <div class="time">3月11日</div>
+        <div class="time">{{date}}</div>
       </div>
     </div>
 

@@ -6,11 +6,11 @@
       </div>
 
       <div class="title">
-        <h2>今天</h2><span>星期六 {{time}}</span>
+        <h2>今天</h2><span>{{date}}  {{time}}</span>
       </div>
 
       <div class="add-box">
-        <input type="text" v-model="content" placeholder="计划做点儿什么？">
+        <input type="text" v-model="content" placeholder="今天需要检查的电梯">
       </div>
 
       <button class="add-btn" @click="addTodo">添加任务</button>
@@ -22,15 +22,20 @@
 import { formatTime } from '@/utils';
 import store from '@/store';
 
+var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']; 
+
 export default {
   data() {
     return {
       userInfo: {},
       content: '',
       time: formatTime(new Date()).t1,
+	  date: week[new Date().getDay()],
     };
   },
-
+  beforeMount () {
+    this.getTodolist();
+  },
   methods: {
     getUserInfo() {
       // wx.login({
@@ -52,7 +57,7 @@ export default {
       if (!this.content.trim()) {
         wx.showToast({
           icon: 'none',
-          title: '请输入内容请输入内容请输入内容请输入内容请输入内容请输入内容！',
+          title: '请输入内容！',
         })
         return;
       }
@@ -68,6 +73,14 @@ export default {
         url: '/pages/index/index',
       });
     },
+	getTodolist(){
+		console.log('json');
+		store.commit('addTodo', {
+        content: 'dfsafsff',
+        time: this.time,
+      })
+	
+	}
   },
 
   mounted() {
