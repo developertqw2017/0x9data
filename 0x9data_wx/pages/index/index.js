@@ -65,7 +65,23 @@ Page({
         that.setData({
           json:res.data[0]
         }),
-        console.log("set");
+          wx.getStorageInfo({
+            success: function (res) {
+              if(res.keys[1]==undefined){
+                var key='1';
+              }else{
+                var key=String(res.keys.length);
+                console.log('缓存'+key)
+              }
+              wx.setStorage({
+                key: key,
+                data: that.data.json
+              })
+              console.log('当前拥有keys---'+res.keys)
+              console.log(res.currentSize)
+              console.log(res.limitSize)
+            }
+          })
         console.log(that.data.json)
         console.log("res data");
         console.log(JSON.stringify(that.data.json));
