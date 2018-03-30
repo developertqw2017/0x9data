@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 INSTALLED_APPS = [
     'home',
     'search',
-
+    'users',
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
     'wagtail.embeds',
@@ -93,10 +93,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'upkeep',
-        'USER':'root',
-        'PASSWORD':'tqw503417',
-        'HOST':'127.0.0.1',
-        'PORT':'3306',
+        'USER': 'root',
+        'PASSWORD': 'tqw503417',
+        'HOST':'localhost',
+        'PORT':'3306'
     }
 }
 
@@ -156,7 +156,12 @@ MEDIA_URL = '/media/'
 # Wagtail settings
 
 WAGTAIL_SITE_NAME = "upkeep"
+WAGTAIL_USER_EDIT_FORM = 'users.forms.CustomUserEditForm'
+WAGTAIL_USER_CREATION_FORM = 'users.forms.CustomUserCreationForm'
+WAGTAIL_USER_CUSTOM_FIELDS = ['device']
+
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+AUTH_USER_MODEL = 'users.User'
