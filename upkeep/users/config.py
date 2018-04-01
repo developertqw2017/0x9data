@@ -1,0 +1,4 @@
+APPINFO = {
+    "appid":"",
+    "secret":"",
+}
