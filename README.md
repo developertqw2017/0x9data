@@ -160,3 +160,8 @@ server {
 
 }
 ```
+
+
+```shell
+grep -rli "pages match" ./
+```

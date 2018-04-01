@@ -1,0 +1,29 @@
+{% extends "wagtailadmin/base.html" %}
+{% load i18n %}
+{% block titletag %}{% trans "删除组" %}{% endblock %}
+
+{% block content %}
+    {% trans "删除组:" as del_str %}
+    {% include "wagtailadmin/shared/header.html" with title=del_str subtitle=group.name icon="group" %}
+
+    <div class="nice-padding">
+        <p>
+            {% blocktrans with group_name=group.name count group_user_count=group.user_set.count %}
+                '{{ group_name }}' 有 <strong>{{ group_user_count }}</strong> 个成员.
+            {% plural %}
+                '{{ group_name }}' 有 <strong>{{ group_user_count }}</strong> 个成员.
+            {% endblocktrans %}
+        </p>
+        <p>
+            {% if group.user_set.count %}
+                {% trans "删除此组将使所有成员用户撤销此组的权限" %}
+            {% endif %}
+        </p>
+
+        <p>{% trans "你确定要删除该组吗?" %}</p>
+        <form action="{% url 'wagtailusers_groups:delete' group.id %}" method="POST">
+            {% csrf_token %}
+            <input type="submit" value="{% trans 'Yes, delete' %}" class="button serious" />
+        </form>
+    </div>
+{% endblock %}
