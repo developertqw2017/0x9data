@@ -5,7 +5,7 @@ const date = new Date()
 const years = []
 const months = []
 const days = []
-for (let i = 1990; i <= date.getFullYear(); i++) {
+for (let i = 2017; i <= date.getFullYear(); i++) {
   years.push(i)
 }
 
@@ -97,12 +97,20 @@ Page({
     var _this = this
     var item = e.currentTarget.dataset.item
     console.log(item)
+    var item_date = new Date(item)
+    var item_year = item_date.getFullYear(item)
+    var item_month = item_date.getMonth(item) + 1
+    var item_day = item_date.getDate()
     var temp = _this.data.lists
     console.log(typeof (temp))
     _this.setData({
       temp_item:item,
       temp_temp:temp,
+      day: item_day,
+      month: item_month,
+      year: 2018,
     })
+    console.log(item_day)
     _this.PickShow()
     
   },
