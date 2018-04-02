@@ -1,19 +1,19 @@
-# mpvue-tochecklist
+# TodoList 小程序
 
-## Build Setup
+- 使用weui
+- gulp监控less编译wxss
+- wxs模块化做过虑
 
-``` bash
-# install dependencies
-npm install
+## 主要功能
 
-# serve with hot reload at localhost:8080
-npm run dev
+- 微信登录
+- 状态分类
+- 异步缓存存储信息
+- 添加时间显示
+- 滑动删除
 
-# build for production with minification
-npm run build
+clone下来，导出微信开发者工具即可运行
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+实现效果如下：
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![效果图](https://raw.githubusercontent.com/ch563/TodoList-wechat/master/demo.gif)

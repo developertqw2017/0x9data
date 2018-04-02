@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/add/add",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/counter/counter"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#EA5A49",
+    "navigationBarBackgroundColor": "#EA5A49",
+    "backgroundColorBottom": "#ffffff",
+    "navigationBarTitleText": "TodoList",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor": "#EA5A49",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "待检查设备",
+        "iconPath": "/static/home.png",
+        "selectedIconPath": "/static/home-a.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "已检查设备",
+        "iconPath": "/static/add.png",
+        "selectedIconPath": "/static/add-a.png"
+      }
+    ]
+  }
+}

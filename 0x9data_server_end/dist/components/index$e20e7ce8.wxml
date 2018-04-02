@@ -1,0 +1,19 @@
+<template name="index$e20e7ce8">
+  <view class="_div data-v-a206c4be page-list">
+    <picker class="_picker data-v-a206c4be picker" mode="date" value="{{date}}" start="{{startDate}}"
+      bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-a206c4be">
+        选择日期: {{date}}
+      </view>
+    </picker>
+    <view class="_div data-v-a206c4be list" bindtap="handleProxy" data-eventid="{{'1'}}"
+      data-comkey="{{$k}}">
+      <view class="_div data-v-a206c4be item" wx:key="index" key="{{index}}" wx:for="{{todo}}"
+        wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-a206c4be content">{{index + 1}}: {{item.content}}</view>
+        <view class="_div data-v-a206c4be time">{{date}}</view>
+      </view>
+    </view>
+    <view wx:if="{{isLoadMore}}" class="_div data-v-a206c4be load-more">加载中...</view>
+  </view>
+</template>

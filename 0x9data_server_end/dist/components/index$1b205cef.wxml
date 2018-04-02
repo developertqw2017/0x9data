@@ -1,0 +1,20 @@
+<template name="index$1b205cef">
+  <view class="_div data-v-0de4daca page-add">
+    <view class="_div data-v-0de4daca container">
+      <view class="_div data-v-0de4daca avatar">
+        <image src="{{userInfo.avatarUrl}}" class="_image data-v-0de4daca"></image>
+      </view>
+      <view class="_div data-v-0de4daca title">
+        <view class="_h2 data-v-0de4daca">今天</view>
+        <label class="_span data-v-0de4daca">{{date}} {{time}}</label>
+      </view>
+      <view class="_div data-v-0de4daca add-box">
+        <input type="text" value="{{content}}" bindinput="handleProxy" placeholder="今天需要检查的电梯"
+          data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-0de4daca"
+        />
+      </view>
+      <button class="_button data-v-0de4daca add-btn" bindtap="handleProxy" data-eventid="{{'1'}}"
+        data-comkey="{{$k}}">添加任务</button>
+    </view>
+  </view>
+</template>
