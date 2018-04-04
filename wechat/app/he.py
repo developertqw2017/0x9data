@@ -11,11 +11,12 @@ app = Flask(__name__)
 def he():
     code_type = request.args.get("x")
     device_code = request.args.get("y")
-    db = pymysql.connect("","","","",charset='utf8')
-            ","","","",charset='utf8')
+    db = pymysql.connect("10.254.1.61","HEBSJZ_96365","hebqts@1811","HEBSJZ_96365DB",charset='utf8')
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM WXCXGN WHERE "+code_type+" = " + device_code)
+    cursor.execute("SELECT * FROM WXCXGN WHERE %s = '%s'" % (code_type, device_code))
     data = cursor.fetchall()
+    if data == ():
+        return 404
     return json.dumps(data) #.decode('utf-8')
 
 if __name__ == "__main__":
