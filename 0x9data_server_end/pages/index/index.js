@@ -360,7 +360,29 @@ Page({
   //   },1500);
   // },
   onLoad: function () {
-    var _this = this
+    var that = this
+
+    app.login_u(function (globaldata) {
+      // console.log('globaldt_index',globaldata)
+      if (globaldata.cur_dir !== 'undefined') {
+        that.setData({
+          userInfo: globaldata.userInfo,
+          dir: globaldata.cur_dir,
+          hidden: true
+
+        })
+      } else {
+        that.setData({
+
+          loadtext: '加载失败，请稍后重试'
+        })
+      }
+
+    })
+
+    // console.log('indexdata',this.data)
+// 状态
+
     wx.getStorage({
       key: 'lists',
       success: function(res) {
@@ -405,5 +427,102 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+    this.login_u()
+  },
+  //登录用户
+  login_u: function (cb) {
+    var that = this
+    var domain_url = this.globalData.domain
+    var encryptdata = {}
+    // 登陆
+    wx.login({
+      success: function (res) {
+        // console.log('loginsuc',res)
+        encryptdata['code'] = res['code']
+
+        // 请求用户信息
+        wx.getUserInfo({
+          success: function (res) {
+            // console.log('getuserinfosuc',res)
+            encryptdata['encrypteddata'] = res['encryptedData']
+            encryptdata['iv'] = res['iv']
+            console.log('加密信息', encryptdata)
+            // 请求服务器
+            wx.request({
+              url: domain_url + 'login/',
+              method: 'POST',
+              data: Util.json2Form(encryptdata),
+              header: {
+                'content-type': 'application/x-www-form-urlencoded'
+              },
+              success: function (res) {
+                var info = res['data']
+                // console.log('login_r', res)
+                if (typeof info.error !== 'undefined') {
+                  // 与服务器链接失败
+                  console.log('与服务器链接失败')
+
+                  wx.navigateTo({
+                    url: '../error/error?error=' + info.error,
+                  })
+                } else {
+                  // 服务器返回内容
+                  var info = res['data']
+                  var userinfo = info['info']
+                  // 缓存 cookie
+                  wx.setStorage({
+                    key: 'cookie',
+                    data: userinfo['cookie']
+                  })
+
+                  // 添加全局数据
+                  that.globalData.cookie = userinfo['cookie']
+                  that.globalData.userInfo = userinfo
+                  that.globalData.dirs = info['dirs']
+                  that.globalData.cur_dir = info['dirs'][0]
+                  // console.log('global',that.globalData)
+                  typeof cb == "function" && cb(that.globalData)
+                }
+              },
+              // 请求服务器失败
+              fail: function () {
+                console.log('请求服务器失败')
+                wx.navigateTo({
+                  url: '../error/error?errorinfo=' + '请求服务器失败',
+                })
+              }
+
+            })
+          },
+          // 获取用户信息失败
+          fail: function (res) {
+            console.log('获取用户信息失败', res)
+            wx.navigateTo({
+              url: '../error/error?errorinfo=' + '获取用户信息失败',
+            })
+
+          }
+        })
+
+      },
+
+      // 登陆失败
+      fail: function (res) {
+        console.log('登陆失败', res)
+        wx.navigateTo({
+          url: '../error/error?errorinfo=' + '登陆失败',
+        })
+      }
+    })
+
+  },
+  globalData: {
+    userInfo: null,
+    cur_dir: null,
+    dirs: null,
+    domain: 'https://hebsjz.0x9.org/upkeep/login',
+    // domain: 'http://127.0.0.1:8000/scan/',
+    cookie: ''
+  },
+
 })
