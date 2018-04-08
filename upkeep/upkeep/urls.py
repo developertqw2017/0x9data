@@ -5,8 +5,7 @@ from django.contrib import admin
 from wagtail.admin import urls as wagtailadmin_urls
 from wagtail.core import urls as wagtail_urls
 from wagtail.documents import urls as wagtaildocs_urls
-from users import views
-
+from users import urls as users_urls
 from search import views as search_views
 
 urlpatterns = [
@@ -20,12 +19,8 @@ urlpatterns = [
     # For anything not caught by a more specific rule above, hand over to
     # Wagtail's page serving mechanism. This should be the last pattern in
     # the list:
-    url(r'upkeep/', include(wagtail_urls)),
-    url(r'^upkeep/login/', views.verify_user),
-    url('^upkeep/datain/$', views.datain, name='datain'),
-    url('^upkeep/checkqr/$', views.checkqr, name='checkqr'),
-    url('^upkeep/test/', views.test),
- 
+    url(r'^upkeep/bkend/', include(wagtail_urls)),
+    url(r'^upkeep/' , include(users_urls)),
     # Alternatively, if you want Wagtail pages to be served from a subpath
     # of your site, rather than the site root:
     #    url(r'^pages/', include(wagtail_urls)),

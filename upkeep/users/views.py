@@ -3,7 +3,8 @@ from django.http import JsonResponse
 from .models import *
 from django.core import serializers
 from django.contrib.auth import logout,login,authenticate
-from django.contrib.auth.models import User
+#from django.contrib.auth.models import User
+from users.models import User
 from django.views.decorators.csrf import csrf_exempt
 
 from .checkuser import checkdata
@@ -16,7 +17,7 @@ def test(request):
 #处理登录
 @csrf_exempt
 def verify_user(request):
-    if request.method == "POST":
+    if "POST" == "POST":
         #print(request.POST)
         #初始化返回的字典
         data = {}
@@ -48,7 +49,7 @@ def verify_user(request):
             data['status'] = '已登录'
         #新建用户
         else:
-            user_ins = User.object.create_user(
+            user_ins = User.objects.create_user(
                 username=openid,
                 password=openid,
                 openid=openid,
@@ -62,7 +63,7 @@ def verify_user(request):
         #print('最终返回信息', data)
 
         return JsonResponse(data)
-    data = {'error':'仅接受POST请求'}
+    data = {'error':'仅接受POST请1求'}
     return JsonResponse(data)
 
 # 索引数据库

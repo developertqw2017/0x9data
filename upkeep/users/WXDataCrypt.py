@@ -13,11 +13,12 @@ class WXDataCrypt:
         encryptedData = base64.b64decode(encryptedData)
         iv = base64.b64decode(iv)
 
-        cipher = AES.new(sessionKey. AES.MODE_CBC, iv)
+        cipher = AES.new(sessionKey, AES.MODE_CBC, iv)
 
         res = self._unpad(cipher.decrypt(encryptedData)).decode('utf-8')
         decrypted = json.loads(res)
-
+        print(decrypted['watermark']['appid'])
+        print(self.appId)
         if decrypted['watermark']['appid'] != self.appId:
             raise Exception('Invalid Buffer')
 
