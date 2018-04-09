@@ -61,20 +61,20 @@ def verify_user(request):
 
         data['info'] = res
         #print('最终返回信息', data)
-
+        data['device'] = checkqr(code,res['cookie'])
         return JsonResponse(data)
     data = {'error':'仅接受POST请1求'}
     return JsonResponse(data)
 
 # 索引数据库
 @csrf_exempt
-def checkqr(request):
+def checkqr(code,cookie):
     # pass
-    if request.method == 'POST':
+    if 'POST' == 'POST':
 
         data = {}
-        qrcode = request.POST.get('code')
-        cookie = request.POST.get('cookie')
+        qrcode = code
+        cookie = cookie
 
         # 验证用户
         profiles = User.objects.filter(cookie=cookie)
@@ -89,8 +89,10 @@ def checkqr(request):
         # 获取设备
         rets = []
         device = profile.device
+        print(device)
         devices = list(eval(device))
-        if len(devices) == 0:
+        if len(devices) == 0 or devices == 1:
+
             data = {'exist': 'none_existed'}
             return JsonResponse(data)
         for x in devices:
@@ -104,7 +106,7 @@ def checkqr(request):
 
 
     data = {'error': '仅接受POST请求'}
-    return JsonResponse(data)
+    return data
 
 @csrf_exempt
 def datain(request):

@@ -1,7 +1,7 @@
 from django import forms
 from django.utils.translation import ugettext_lazy as _
 from wagtail.users.forms import UserEditForm, UserCreationForm
-from users.models import User,device
+from users.models import User,device, white_list
 
 import json
 import string
@@ -14,13 +14,15 @@ class CustomUserEditForm(UserEditForm):
         super().__init__(*args, **kwargs)
         self.fields['username'].initial = ''
         self.fields['device'].choices =((x.id,x.SYDWNBBH)for x in device.objects.filter(SYDW = upkeep.upkeep))
-        devices = list(eval(upkeep.device))
         rets = []
-        
-        for x in devices:
-            res = device.objects.get(id = int(x))
-            rets.append((res.id,res.SYDWNBBH))
-        self.fields['avai_device'].choices = rets
+        if upkeep.device == '1':
+            self.fields['avai_device'].choices = [('none','ss')]
+        else:
+            devices = list(eval(upkeep.device))
+            for x in devices:
+                res = device.objects.get(id = int(x))
+                rets.append((res.id,res.SYDWNBBH))
+            self.fields['avai_device'].choices = rets
         #self.fields['avai_device'].choices =
     #class Meta:
     #    model = User
@@ -29,6 +31,7 @@ class CustomUserEditForm(UserEditForm):
     
     avai_device = forms.MultipleChoiceField(widget = forms.SelectMultiple,choices =[],required=False, label=_("管理中的设备"))
     device = forms.MultipleChoiceField(widget = forms.SelectMultiple,choices =[],required=False, label=_("可选的设备"))
+    #white_list = forms.CharField(widget = forms.TextInput,required=False, label=_("电话白名单"))
     upkeep = forms.CharField(required=True,label=_('物业名称'))
     def clean_username(self):
         username = self.cleaned_data['username']
@@ -43,10 +46,4 @@ class test(forms.ModelForm):
         upkeep = forms.CharField(required = False, label=_("ffff"))
 
 class CustomUserCreationForm(UserCreationForm):
-    MY_CHOICES = (
-            ('blue', 'Blu2'),
-            ('green', 'Green'),
-            ('black', 'Black'),
-            )
     upkeep = forms.CharField(required = False,label=_("物业名称"))
-    device = forms.MultipleChoiceField(widget = forms.SelectMultiple,choices = MY_CHOICES,required=False, label=_("设备"))
