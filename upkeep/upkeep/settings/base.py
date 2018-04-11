@@ -163,7 +163,7 @@ MEDIA_URL = '/media/'
 WAGTAIL_SITE_NAME = "upkeep"
 WAGTAIL_USER_EDIT_FORM = 'users.forms.CustomUserEditForm'
 WAGTAIL_USER_CREATION_FORM = 'users.forms.CustomUserCreationForm'
-WAGTAIL_USER_CUSTOM_FIELDS = ['device','upkeep']
+WAGTAIL_USER_CUSTOM_FIELDS = ['device','upkeep','white_list']
 
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -

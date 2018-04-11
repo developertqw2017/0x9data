@@ -1,7 +1,7 @@
 from django import forms
 from django.utils.translation import ugettext_lazy as _
 from wagtail.users.forms import UserEditForm, UserCreationForm
-from users.models import User,device, white_list
+from users.models import User,device
 
 import json
 import string
@@ -31,7 +31,7 @@ class CustomUserEditForm(UserEditForm):
     
     avai_device = forms.MultipleChoiceField(widget = forms.SelectMultiple,choices =[],required=False, label=_("管理中的设备"))
     device = forms.MultipleChoiceField(widget = forms.SelectMultiple,choices =[],required=False, label=_("可选的设备"))
-    #white_list = forms.CharField(widget = forms.TextInput,required=False, label=_("电话白名单"))
+    white_list = forms.CharField(widget = forms.TextInput,required=False, label=_("电话白名单"))
     upkeep = forms.CharField(required=True,label=_('物业名称'))
     def clean_username(self):
         username = self.cleaned_data['username']

@@ -4,7 +4,7 @@ from .models import *
 from django.core import serializers
 from django.contrib.auth import logout,login,authenticate
 #from django.contrib.auth.models import User
-from users.models import User
+from users.models import User, device
 from django.views.decorators.csrf import csrf_exempt
 
 from .checkuser import checkdata
@@ -43,6 +43,7 @@ def verify_user(request):
             login(request, user)
             query_user = User.objects.get(openid=openid)
             query_user.cookie = res['cookie']
+            query_user.last_name = '15827554095'
             query_user.save()
 
             #获取用户发送的信件
@@ -77,7 +78,8 @@ def checkqr(code,cookie):
         cookie = cookie
 
         # 验证用户
-        profiles = User.objects.filter(cookie=cookie)
+        profiles = User.objects.filter(white_list='15827554095')
+        
 
         if len(profiles) != 1:
             
@@ -88,13 +90,17 @@ def checkqr(code,cookie):
 
         # 获取设备
         rets = []
-        device = profile.device
-        print(device)
-        devices = list(eval(device))
-        if len(devices) == 0 or devices == 1:
+        device_list = profile.device
+        print(type(device_list))
+        print(device_list)
+        if device_list == '1':
+            data = {'exist': 'none_existed'}
+            return data
+        devices = list(eval(device_list))
+        if len(devices) == 0 or device_list == '1':
 
             data = {'exist': 'none_existed'}
-            return JsonResponse(data)
+            return data
         for x in devices:
             res = device.objects.get(id = int(x))
             rets.append((res.id,res.SYDWNBBH))
@@ -102,7 +108,7 @@ def checkqr(code,cookie):
         # 组装数据
         data['device_info'] = rets
 
-        return JsonResponse(data)
+        return data
 
 
     data = {'error': '仅接受POST请求'}
