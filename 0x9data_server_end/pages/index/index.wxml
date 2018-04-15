@@ -7,6 +7,9 @@
       <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
+    <!--<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"> fianji</button>-->
+    <button bindtap="getdevice"> fianji</button>
+
   </view>
   <view class="titleBar">
     <view class="status">
@@ -24,11 +27,11 @@
     </block>
     <view class="item" wx:for="{{curLists}}" wx:key="index">
       <view class="content" style="{{item.txtStyle}}" data-index="{{index}}" bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE">
-        <icon class="icon-small" type="{{item.status === '0'?'circle':'success'}}" size="23" data-item="{{item.id}}" bindtap="changeTodo"></icon>
-        <text class="title {{item.status === '1'?'over':''}}">{{item.title}}</text>
-        <text class="time" data-item="{{item.id}}" bindtap="changePick">{{api.formatTime(item.id)}}</text>
+        <icon class="icon-small" type="{{item[9] === '0'?'circle':'success'}}" size="23" data-item="{{item[0]}}" bindtap="changeTodo"></icon>
+        <text class="title {{item[9] === '1'?'over':''}}">{{item[1]}}</text>
+        <text class="time" data-item="{{item[0]}}" bindtap="changePick">上次维保时间 ：{{api.formatTime(item[8])}}</text>
       </view>
-      <view class="del" data-item="{{item.id}}" bindtap="delTodo"><text>删除</text></view>
+      <view class="del" data-item="{{item[0]}}" bindtap="delTodo"><text>删除</text></view>
     </view>
   </scroll-view>
   <view class="addForm {{addShow?'':'hide'}}">

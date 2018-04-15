@@ -54,10 +54,10 @@ Page({
     var item = e.currentTarget.dataset.item
     var temp = _this.data.lists
     temp.forEach(el => {
-      if (el.id === item) {
-        if (el.status === '0') {
-          el.status = '1',
-          el.id = new Date().getTime(),
+      if (el[0] === item) {
+        if (el[9] === '0') {
+          el[9] = '1',
+          el[8] = new Date().getTime(),
           _this.showCur(temp)
           wx.setStorage({
             key:"lists",
@@ -71,13 +71,13 @@ Page({
         } else {
           wx.showModal({
             title: '',
-            content: '该任务已完成，确定重新开始任务？',
+            content: '该设备已完成维保，确定撤销？',
             confirmText: "确定",
             cancelText: "不了",
             success: function (res) {
                 if (res.confirm) {
-                  el.status = '0',
-                  el.id = new Date().getTime(),
+                  el[9] = '0',
+                  el[8] = new Date().getTime(),
                   _this.showCur(temp)
                   wx.setStorage({
                     key:"lists",
@@ -126,8 +126,8 @@ Page({
       success: function (res) {
         if (res.confirm) {
           temp.forEach(el => {
-            if (el.status === '1') {
-                el.status = '0',
+            if (el[9] === '1') {
+                el[9] = '0',
                   _this.showCur(temp)
             }
           })
@@ -164,7 +164,7 @@ Page({
   PickHide: function () {
     this.setData({
       PickShow: false,
-      
+    
     })
   },
   bindDateChange: function (e) {
@@ -176,24 +176,20 @@ Page({
       day: this.data.days[val[2]]
     })
     var temp = _this.data.temp_temp
-    
     var item = _this.data.temp_item
     temp.forEach(el => {
-
-      if (el.id == item) {
-        console.log(el.id)
-        console.log(item)
+      if (el[0] == item) {
         console.log(typeof(_this.data.year+'/'+_this.data.month+'/'+_this.data.day))
-        var str_date = _this.data.year + '/' + _this.data.month + '/' + _this.data.day
-        el.id = new Date(str_date).getTime(),
-        _this.data.temp_item = el.id,
-        console.log(el.id)
-        console.log('4324'+_this.data.day)
+        var str_date = _this.data.year +  '/' + _this.data.month + '/' + _this.data.day
+        el[8] = new Date(str_date).getTime(),
+        _this.data.temp_item = el[8],
+        console.log(temp)
         _this.showCur(temp)
         wx.setStorage({
           key: "lists",
           data: temp
         })
+      
       }
       
     })
@@ -203,16 +199,12 @@ Page({
       addText: e.detail.value
     })
   },
-  addTodo: function () {
+  addTodo: function (addT) {
     if (!this.data.addText.trim()) {
       return
     }
     var temp = this.data.lists
-    var addT = {
-      id: new Date().getTime(),
-      title: this.data.addText,
-      status: '0'
-    }
+
     temp.push(addT)
     this.showCur(temp)
     this.addTodoHide()
@@ -226,6 +218,29 @@ Page({
       duration: 1000
     });
   },
+
+  /*getPhoneNumber: function (e) {
+    console.log(e.detail.errMsg)
+    console.log(e.detail.iv)
+    console.log(e.detail.encryptedData)
+  },
+  */
+  getdevice:function(e){
+    wx.request({
+      url: domain_url + 'getdevice/',
+      method: 'POST',
+      data: {
+        phonenumber:'15827554095'
+      },
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: function (res) {
+        console.log(res.data)
+      }
+    })
+  },
+
   showCur: function (data) {
     if (this.data.status === '1') {
       this.setData({
@@ -240,6 +255,7 @@ Page({
     }
   },
   showStatus: function (e) {
+    console.log(this.data)
     var st = e.currentTarget.dataset.status
     if (this.data.status === st) return
     if (st === '1') {
@@ -251,7 +267,7 @@ Page({
     }
     this.setData({
       status: st,
-      curLists: this.data.lists.filter(item => +item.status === (st - 2))
+      curLists: this.data.lists.filter(item => +item[9] === (st - 2))
     })
   },
   touchS: function (e) {
@@ -347,18 +363,20 @@ Page({
     })
     
   },
-  // onPullDownRefresh:function()
-  // {
-  //   wx.showNavigationBarLoading() //在标题栏中显示加载
-    
-  //   //模拟加载
-  //   setTimeout(function()
-  //   {
-  //     // complete
-  //     wx.hideNavigationBarLoading() //完成停止加载
-  //     wx.stopPullDownRefresh() //停止下拉刷新
-  //   },1500);
-  // },
+  showDevices:function(){
+    wx.getStorage({
+      key: 'key',
+      success: function (res) {
+        var addT = {
+          id: new Date().getTime(),
+          title: res.data.devices.device_info[0][1],
+          status: '0'
+        }
+        addTodo(res);
+        console.log(res.data)
+      }
+    })
+  },
   onLoad: function () {
     var that = this
 
@@ -369,7 +387,6 @@ Page({
           userInfo: globaldata.userInfo,
           dir: globaldata.cur_dir,
           hidden: true
-
         })
       } else {
         that.setData({
@@ -379,17 +396,12 @@ Page({
       }
 
     })
-
-    // console.log('indexdata',this.data)
-// 状态
-
     wx.getStorage({
       key: 'lists',
       success: function(res) {
-        console.log(res.data)
-        _this.setData({
-          lists: res.data,
-          curLists: res.data
+        that.setData({
+          lists: res.data.device.device_info,
+          curLists: res.data.device.device_info
         })
       } 
     })
@@ -521,7 +533,6 @@ Page({
     cur_dir: null,
     dirs: null,
     domain: 'https://hebsjz.0x9.org/upkeep/login',
-    // domain: 'http://127.0.0.1:8000/scan/',
     cookie: ''
   },
 

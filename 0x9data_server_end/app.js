@@ -73,7 +73,16 @@ App({
                 } else {
                   // 服务器返回内容
                   var info = res['data']
+                  for(var x in info.device.device_info){
+                    info.device.device_info[x][9]='0'
+                  }
                   console.log(info);
+                  try {
+                    wx.setStorageSync('lists', info)
+                    console.log('缓存成功')
+                  } catch (e) {
+                    console.log('error')
+                  }
                   var userinfo = info['info']
                   // 缓存 cookie
                   console.log(userinfo['cookie']);
