@@ -129,12 +129,41 @@ Page({
             if (el[9] === '1') {
                 el[9] = '0',
                   _this.showCur(temp)
+                var form = {};
+                form['date'] = el;
+                console.log(form)
+                //发起日期更新request
+                wx.getStorage({
+                  key: 'cookie',
+                  success: function (res) {
+                    form['cookie'] = res;
+                    wx.request({
+                      url: 'https://hebsjz.0x9.org/upkeep/dateupdate/',
+                      method: 'GET',
+                      data: form,
+                      header: {
+                        'content-type': 'application/json' // 默认值
+                      },
+                      success: function (res) {
+                        wx.showToast({
+                          title: '已完成任务',
+                          icon: 'success',
+                          duration: 1000
+                        });
+                        console.log(res)
+                      }
+                    })
+                  }
+                })
             }
           })
           wx.setStorage({
             key: "lists",
             data: temp
           })
+          console.log(temp)
+
+
         } else {
           return console.log('不操作')
         }
@@ -537,3 +566,4 @@ Page({
   },
 
 })
+var Util = require('../../utils/util.js')

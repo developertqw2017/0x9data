@@ -52,6 +52,8 @@ App({
             encryptdata['encrypteddata'] = res['encryptedData']
             encryptdata['iv'] = res['iv']
             console.log('加密信息', encryptdata)
+            console.log(Util.json2Form(encryptdata))
+
             // 请求服务器
             wx.request({
               url: domain_url + 'login/',

@@ -1,4 +1,0 @@
-APPINFO = {
-    "appid":"",
-    "secret":"",
-}
