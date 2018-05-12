@@ -1,0 +1,8 @@
+{% extends "wagtailusers/users/edit.html" %}
+
+{% block extra_fields %}
+    {% include "wagtailadmin/shared/field_as_li.html" with field=form.white_list %}
+    {% include "wagtailadmin/shared/field_as_li.html" with field=form.upkeep %}
+    {% include "wagtailadmin/shared/field_as_li.html" with field=form.device %}
+    {% include "wagtailadmin/shared/field_as_li.html" with field=form.avai_device %}
+{% endblock extra_fields %}

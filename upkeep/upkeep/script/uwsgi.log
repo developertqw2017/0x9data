@@ -1,0 +1,624 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 14:48:13 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1bb7f10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 162192 bytes (158 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named 'upkeep'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28675)
+spawned uWSGI worker 1 (pid: 28676, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 14:49:07 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 14:51:05 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+cannot setuid() as non-root user
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 18:50:09 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+cannot setuid() as non-root user
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 18:51:42 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+cannot setuid() as non-root user
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 18:56:30 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+cannot setuid() as non-root user
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 19:11:51 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+cannot setuid() as non-root user
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 19:45:01 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to TCP address 127.0.0.1:49152 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x19f1e20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 162192 bytes (158 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named 'upkeep'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 11231, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:06:24 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8000 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:49152).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:07:39 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+setgid() to 1001
+set additional group 10 (wheel)
+setuid() to 1001
+chdir() to /home/96365/upkeep/upkeep/upkeep
+your processes number limit is 31206
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8000 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:49152).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:40:58 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8000 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:49152).
+bind(): Address already in use [core/socket.c line 769]
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:49152)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:50:00 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:35505 (port auto-assigned) fd 4
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8f7d00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x8f7d00 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 14588, cores: 1)
+spawned uWSGI worker 2 (pid: 14589, cores: 1)
+spawned uWSGI worker 3 (pid: 14590, cores: 1)
+spawned uWSGI worker 4 (pid: 14591, cores: 1)
+spawned uWSGI http 1 (pid: 14592)
+[pid: 14589|app: 0|req: 1/1] 58.19.3.250 () {38 vars in 771 bytes} [Tue Apr  3 20:51:11 2018] GET / => generated 3085 bytes in 1035 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 14590|app: 0|req: 1/2] 58.19.3.250 () {38 vars in 777 bytes} [Tue Apr  3 20:51:12 2018] GET /static/css/upkeep.css => generated 0 bytes in 767 msecs (HTTP/1.1 200) 4 headers in 137 bytes (0 switches on core 0)
+[pid: 14588|app: 0|req: 1/3] 58.19.3.250 () {40 vars in 841 bytes} [Tue Apr  3 20:51:13 2018] GET /static/wagtailadmin/js/userbar.js => generated 0 bytes in 747 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 14592)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:35505)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:52:33 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:49152 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34974 (port auto-assigned) fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x188cd70
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x188cd70 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 14864, cores: 1)
+spawned uWSGI worker 2 (pid: 14865, cores: 1)
+spawned uWSGI worker 3 (pid: 14866, cores: 1)
+spawned uWSGI worker 4 (pid: 14867, cores: 1)
+spawned uWSGI http 1 (pid: 14868)
+gateway "uWSGI http 1" has been buried (pid: 14868)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:34974)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:54:08 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :49152 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd86860
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xd86860 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 14953, cores: 1)
+spawned uWSGI worker 2 (pid: 14954, cores: 1)
+spawned uWSGI worker 3 (pid: 14955, cores: 1)
+spawned uWSGI worker 4 (pid: 14956, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:49152)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:54:27 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :49152 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25d6860
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25d6860 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 14975, cores: 1)
+spawned uWSGI worker 2 (pid: 14976, cores: 1)
+spawned uWSGI worker 3 (pid: 14977, cores: 1)
+spawned uWSGI worker 4 (pid: 14978, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:49152)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 20:54:42 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :49152 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xb98860
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xb98860 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 14992, cores: 1)
+spawned uWSGI worker 2 (pid: 14993, cores: 1)
+spawned uWSGI worker 3 (pid: 14994, cores: 1)
+spawned uWSGI worker 4 (pid: 14995, cores: 1)
+DAMN ! worker 1 (pid: 14992) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 15048)
+DAMN ! worker 2 (pid: 14993) died :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 15052)
+DAMN ! worker 3 (pid: 14994) died :( trying respawn ...
+Respawned uWSGI worker 3 (new pid: 15060)
+DAMN ! worker 4 (pid: 14995) died :( trying respawn ...
+Respawned uWSGI worker 4 (new pid: 15062)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:49152)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 21:19:04 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :49152 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21f9860
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x21f9860 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 16204, cores: 1)
+spawned uWSGI worker 2 (pid: 16205, cores: 1)
+spawned uWSGI worker 3 (pid: 16206, cores: 1)
+spawned uWSGI worker 4 (pid: 16207, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:49152)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 21:19:07 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :49152 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1378860
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1378860 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 16211, cores: 1)
+spawned uWSGI worker 2 (pid: 16212, cores: 1)
+spawned uWSGI worker 3 (pid: 16213, cores: 1)
+spawned uWSGI worker 4 (pid: 16214, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:49152)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 21:19:15 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :49152 fd 3
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xfcc860
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xfcc860 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 16228, cores: 1)
+spawned uWSGI worker 2 (pid: 16229, cores: 1)
+spawned uWSGI worker 3 (pid: 16230, cores: 1)
+spawned uWSGI worker 4 (pid: 16231, cores: 1)
+DAMN ! worker 1 (pid: 16228) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 17118)
+DAMN ! worker 2 (pid: 16229) died :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 17123)
+DAMN ! worker 3 (pid: 16230) died :( trying respawn ...
+Respawned uWSGI worker 3 (new pid: 17126)
+DAMN ! worker 4 (pid: 16231) died :( trying respawn ...
+Respawned uWSGI worker 4 (new pid: 17129)
+DAMN ! worker 1 (pid: 17118) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 17273)
+DAMN ! worker 2 (pid: 17123) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 17276)
+DAMN ! worker 3 (pid: 17126) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 3 (new pid: 17280)
+DAMN ! worker 4 (pid: 17129) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 4 (new pid: 17282)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+DAMN ! worker 1 (pid: 17273) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 17852)
+...brutally killing workers...
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/96365/upkeep/upkeep/script
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:49152)
+running /usr/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr  3 21:49:49 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 02 April 2018 13:49:25
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018
+nodename: CentOS-01.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/96365/upkeep/upkeep/script
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/96365/upkeep/upkeep
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40417 (port auto-assigned) fd 4
+Python version: 3.4.5 (default, Dec 11 2017, 14:22:24)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x140ddf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x140ddf0 pid: 11230 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11230)
+spawned uWSGI worker 1 (pid: 17955, cores: 1)
+spawned uWSGI worker 2 (pid: 17956, cores: 1)
+spawned uWSGI worker 3 (pid: 17957, cores: 1)
+spawned uWSGI worker 4 (pid: 17958, cores: 1)
+spawned uWSGI http 1 (pid: 17959)
