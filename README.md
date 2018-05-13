@@ -165,3 +165,9 @@ server {
 ```shell
 grep -rli "pages match" ./
 ```
+
+
+
+
+
+依赖 django-echarts pyecharts等组件，注意一些python包的版本会影响程序正常运行，严格按照requirements.txt 版本安装于虚拟环境
